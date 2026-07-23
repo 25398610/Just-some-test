@@ -27,6 +27,6 @@ public class Interface01 {
 public static void main(String[]args){
     animal a =new dog();//我多态
     a.breathe();
-    //animal b =new cat();依旧抽象类无法实例化这一块
+    //animal b =new cat();依旧抽象类无法实例化这一块 抽象方法不能有方法体，但是你抽象类中还是可以有的
 }
 }
